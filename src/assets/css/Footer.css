@@ -1,0 +1,24 @@
+.footer-section{
+    font-size: .85em;
+    padding: 20px 0px 0px 0px ;
+}
+
+.footer-header{
+    color: #004AAD;
+}
+
+.footer-sitelist li{
+    padding:5px 0px;
+}
+
+.footer-sitelist li a{
+    color:black;
+}
+
+.footer-sign-off{
+    padding-top:60px;
+}
+
+.m-b-10{
+    margin-bottom: 10px !important;
+}

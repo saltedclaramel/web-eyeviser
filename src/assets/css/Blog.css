@@ -1,0 +1,78 @@
+.list-card {
+  box-shadow: 0 10px 40px 0 rgb(18 106 211 / 7%), 0 2px 9px 0 rgb(18 106 211 / 6%);
+  border: none;
+  margin-bottom: 1.875rem;
+  transition: all .3s ease;
+}
+
+.blog-card {
+  background: white;
+  border: none;
+  padding: 30px 20px;
+}
+
+.blog-card .blog-title {
+  font-size: 24px;
+  color: #004AAD;
+  font-weight: bold;
+}
+
+.blog-card .blog-author {
+  font-size: 14px;
+  color: #004AAD;
+}
+
+.blog-card .card-body {
+  padding: 1.25rem 0px;
+}
+
+.blog-card .card-body .card-title {
+  font-size: 1rem;
+}
+
+.blog-card .card-body .card-text {
+  font-size: .85rem;
+}
+
+.blog-card .blog-recommend-title {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.blog-card .blog-recommend-text {
+  font-size: 16px;
+}
+
+.img-thumbnail {
+  padding: 0;
+}
+
+.max-w-100 {
+  max-width: 100px!important;
+}
+
+.m-b-30 {
+  margin-bottom: 30px!important;
+}
+
+.m-l-10 {
+  margin-left: 10px!important;
+}
+
+.blog-cat-header{
+    font-size: .875rem;
+    color: #6c757d;
+}
+
+.blog-cat-list{
+  list-style-type: none;
+  margin-block-start: 0.25em;
+  padding-inline-start: 20px;
+}
+
+.blog-cat-item{
+  padding: 5px 0px;
+  cursor: pointer;
+    color: #004aad;
+}

@@ -1,0 +1,48 @@
+{
+  "name": "eyeviser-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.0",
+    "antd": "^4.12.3",
+    "axios": "^0.21.1",
+    "basic-react-timepicker": "^1.0.0",
+    "bootstrap": "^4.5.3",
+    "env-cmd": "^9.0.3",
+    "formik": "^2.2.6",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-datepicker": "^3.6.0",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "4.0.1",
+    "reactjs-popup": "^2.0.4",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env.local react-scripts start",
+    "build": "env-cmd -f .env.production react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
